@@ -1,0 +1,16 @@
+12 factor app 
+
+1. Codebase
+2. Dependencies
+3. Config 
+4. Backing Services like database redis mongodb etc 
+5. Build release tun 
+6. Processes - execute the app as one or more stateless processes
+7. Port binding 
+8. Concurrency 
+9. Disposability - Graceful shutdown so that request coming in during shutdown can be dealt successfully 
+10. dev/prod parity 
+11. Logs - Treat logs as event streams . Use log aggregator tools . 
+12. Admin Processes - Run admin . management tasks as one-off processes . 
+	Rest Apis can be used by admin roles only 
+	
