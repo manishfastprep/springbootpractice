@@ -1,1 +1,11 @@
+com\fastprep\practice\repository\AnswerTextRepository.class
+com\fastprep\practice\entity\Question.class
+com\fastprep\practice\entity\Option.class
+com\fastprep\practice\service\TestPrepService.class
+com\fastprep\practice\controller\TestPrepController.class
+com\fastprep\practice\repository\OptionRepository.class
+com\fastprep\practice\entity\AnswerText.class
 com\fastprep\practice\GitFastprepApplication.class
+com\fastprep\practice\repository\QuestionRepository.class
+com\fastprep\practice\entity\Answer.class
+com\fastprep\practice\repository\AnswerRepository.class
