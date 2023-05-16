@@ -1,0 +1,27 @@
++-----------+           +---------------+          +------------------+
+|   User    |           |   Question    |          |   Answer         |
++-----------+           +---------------+          +------------------+
+| UserId    |◆---------─| QuestionId    |◆--------─| AnswerId         |
+| Username  |           | Question      |          | QuestionId       |
+| Password  |           | TypeId        |◆--------─| UserId           |
+| Role      |           +---------------+          +------------------+
++-----------+
+
++--------------+           +--------------+          +-----------------+        
+|   Option     |           |  CorrectOption|          |  AnswerText     |         
++--------------+           +--------------+          +-----------------+       
+| OptionId     |◆---------─| QuestionId   |◆--------─| AnswerId        |        
+| QuestionId   |           | OptionId     |◆--------─| Text            |        
+| OptionText   |           +--------------+          +-----------------+        
+| IsCorrect    |                                                             
++--------------+
+
+Some additional points to note:
+
+The relationship between User and Answer indicates that a user can provide multiple answers to different questions.
+The relationship between Question and Answer indicates that each answer corresponds to a specific question.
+The relationship between Question and Option indicates that each question can have multiple options.
+The relationship between Question and CorrectOption indicates that each question can have multiple correct options.
+The relationship between Answer and AnswerText indicates that each answer can have multiple answer texts.
+Overall, the diagram captures the relationships and attributes needed to represent the test prep website's data model with support for multiple choice questions (both single and multiple correct options) and subjective questions.
+
