@@ -1,0 +1,7 @@
+Notes for commit
+1. Used .yml file instead of application.properties 
+2. JPA is working fine . 
+3. There are 2 steps - maven build and run as spring boot application 
+4. Increased the buffer size of console to show all the errors . 
+5. Option is a reserved keyword in mysql and should not be used as table name 
+Hence updated the table name to option_for_question. 
