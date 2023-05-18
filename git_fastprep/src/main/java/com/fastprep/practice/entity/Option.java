@@ -13,7 +13,9 @@ import lombok.Setter;
 
 //Option.java (Entity class)
 @Entity
-@Table
+@Getter
+@Setter
+@Table(name = "option_for_question")
 public class Option {
 
  @Id
